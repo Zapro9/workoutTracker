@@ -18,7 +18,6 @@ mongoose.connect("mongodb://localhost/workout", {
   useFindAndModify: false
 });
 
-// routes
 app.use(require("./routes/api.js"));
 app.use(require("./routes/view.js"));
 
